@@ -1,0 +1,56 @@
+Arguments: 
+  /Users/ysstech/.nvm/versions/node/v16.13.1/bin/node /usr/local/bin/yarn build
+
+PATH: 
+  /Users/ysstech/.nvm/versions/node/v16.13.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/ysstech/.nvm/versions/node/v16.13.1/bin:/Users/ysstech/phantomjs-2.1.1-macosx/bin:/Users/ysstech/phantomjs-2.1.1-macosx/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  16.13.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/ysstech/personalFile/tangCode/webpack5-yd-practice/package.json: Unexpected token } in JSON at position 260
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "webpack5-yd-practice",
+    "version": "1.0.0",
+    "description": "构建支持TS(X)+Tailwind CSS基于Webpack5",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "build": "webpack --config webpack.config.js",
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/fireWinters/webpack5-yd-practice.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/fireWinters/webpack5-yd-practice/issues"
+    },
+    "homepage": "https://github.com/fireWinters/webpack5-yd-practice#readme",
+    "devDependencies": {
+      "webpack": "^5.70.0"
+    },
+    "dependencies": {
+      "webpack-cli": "^4.9.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
