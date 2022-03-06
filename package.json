@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/fireWinters/webpack5-yd-practice/issues"
   },
-  "homepage": "https://github.com/fireWinters/webpack5-yd-practice#readme"
+  "homepage": "https://github.com/fireWinters/webpack5-yd-practice#readme",
+  "devDependencies": {
+    "webpack": "^5.70.0"
+  }
 }
