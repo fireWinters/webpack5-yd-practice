@@ -1,0 +1,19 @@
+{
+  "name": "webpack5-yd-practice",
+  "version": "1.0.0",
+  "description": "构建支持TS(X)+Tailwind CSS基于Webpack5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fireWinters/webpack5-yd-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fireWinters/webpack5-yd-practice/issues"
+  },
+  "homepage": "https://github.com/fireWinters/webpack5-yd-practice#readme"
+}
